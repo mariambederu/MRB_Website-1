@@ -1,0 +1,104 @@
+/* Table of contents
+__________________________________
+-General Content
+-Typography
+-Header & Navigation
+-Images & Media
+-Footer
+-Media Queries
+__________________________________*/
+
+/* -General Content
+__________________________________*/
+.main{padding-top:3%;}
+.row{padding: 2% 0;}
+.blue{background-color: #9dc6d8;}
+.white{background-color: #fff;}
+.gray{background-color: #c6cbcc;}
+
+/* -Typography
+__________________________________*/
+
+body{
+  font-family: 'Poiret+One', sans-serif;
+  font-size: 1.5em;
+  color:#000;
+}
+h1 {
+  font-size: 2.5em;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+  color: white;
+  font-family: "Questrial" sans-serif;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Questrial', Cursive;
+  font-size:2em;
+}
+.bio{color:#8a8587;}
+p.bio{color:#8a8587;}
+
+/* Header & Navigation
+__________________________________*/
+.main_nav{padding: 4% 0;
+display:block;
+}
+
+
+.nav {
+  background-color: #9dc6d8;
+  height: 55px;
+  font-family: "Poiret+One" sans-serif;
+}
+
+.nav ul {
+  padding-top: 10px;
+  margin: 0;
+  list-style-type: none;
+  float: right;
+}
+
+.nav li {
+  color: #fff;
+  font-size: .7em;
+  display: inline;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 1% 0;
+  vertical-align: middle;
+}
+
+.logo{
+   font-size: 1.5em;
+   display: inline-block;
+   vertical-align: middle;
+   color: #fff;
+   font-family: "Lobster" sans-serif;
+   list-style-type: none;
+ }
+
+/* Images & Media
+__________________________________*/
+
+img {max-width: 100%;}
+
+.avatar {
+  border-radius: 200px;
+  border:4px solid #fff;
+}
+
+img:hover{opacity:0.8;}
+/* Footer
+__________________________________*/
+
+/* Media Queries
+__________________________________*/
