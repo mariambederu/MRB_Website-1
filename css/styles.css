@@ -6,6 +6,7 @@ __________________________________
 -Images & Media
 -Footer
 -Media Queries
+-Notes
 __________________________________*/
 
 /* -General Content
@@ -18,6 +19,7 @@ __________________________________*/
 
 /* -Typography
 __________________________________*/
+
 
 body{
   font-family: 'Poiret+One', sans-serif;
@@ -43,12 +45,24 @@ h2{
 .bio{color:#8a8587;}
 p.bio{color:#8a8587;}
 
+
 /* Header & Navigation
 __________________________________*/
+
+.window-slab-offset {
+    background: green;
+}
+
+.window-slab {
+    background: #eee;
+    border: 1px solid #000;
+    height: 100px;
+}
+
+
 .main_nav{padding: 4% 0;
 display:block;
 }
-
 
 .nav {
   background-color: #9dc6d8;
@@ -65,7 +79,7 @@ display:block;
 
 .nav li {
   color: #fff;
-  font-size: .7em;
+  font-size: 1em;
   display: inline;
   padding-left: 20px;
   vertical-align: middle;
@@ -77,26 +91,21 @@ display:block;
   vertical-align: middle;
 }
 
+a:hover{color: #fff;
+border-bottom: 2px solid #fff;
+}
+
+
+
 .logo{
    font-size: 1.5em;
    display: inline-block;
    vertical-align: middle;
    color: #fff;
-   font-family: "Lobster" sans-serif;
+   font-family: "Poiret+One" sans-serif;
    list-style-type: none;
  }
 
-#cssmenu{
-  width: auto;
-  font-family: sans-serif;
-  background-color: #9dc6d8;
-  }
-#menu-button{
-    display:block;
-    text-decoration: none;
-    font-size: 1em;
-    text-transform: capitalize;
-  }
 /* Images & Media
 __________________________________*/
 
@@ -113,3 +122,20 @@ __________________________________*/
 
 /* Media Queries
 __________________________________*/
+/*.box{*/
+  /*float:left;
+}
+/*--DESKTOP---*/
+/*@media (max-width:728px){
+.box{
+  float: none;
+}
+}*/
+
+/*-Notes
+absolute-position
+top:0;
+right:0;
+box-shadow: 0 0 5px black;
+
+*/

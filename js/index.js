@@ -1,25 +1,25 @@
-/*
-delare a variable arrays for each of the drop menu first
-we need to declare a function that holds our loop
+var styles = {'background': '#fff', 'height': '100'};
+console.log(styles.background);
 
-We need a loop that will
-1 Hold the value of each click and view the dropdown
-2 When other dropdown are clicked we need to
-hide other dropdown Menu
-This runs through all three menues */
+// standard function
+function offsetHeaderHeight() {};
 
-(function( $ ) {
-  $(document).ready(function() {
-    $('#cssmenu').prepend('<div id="menu-button">Menu</div>');
-    $('#cssmenu #menu-button').on('click', function(){
-      var menu=$(this).next('ul');
-      if (menu.hasClass('open')) {
-        menu.removeClass('open');
-      }
-      else{
-        menu.addClass('open');
-      }
+//how to write an object
+var windowHeight = {
+  //remember to apply ':' between when using object
+  offsetHeaderHeight: function() {
+    return windowHeight.getHeight() - $(".header").height();
+  },
 
-    });
-  });
-});
+  //remember to apply ':' between when using object
+  getHeight: function() {
+    return $(window).height();
+  }
+
+};
+//
+var winHeight = windowHeight.getHeight();
+var offsetHeight = windowHeight.offsetHeaderHeight();
+
+$('.window-slab-offset').css('height', offsetHeight);
+$('.window-slab').css('height', winHeight);
